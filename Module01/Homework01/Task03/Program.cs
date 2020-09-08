@@ -6,7 +6,17 @@ namespace Task03
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            //--------ASCIIDecoder---------
+            int num;
+            do
+            {
+                do
+                {
+                    Console.WriteLine("Please, enter the number: ");
+                } while (!int.TryParse(Console.ReadLine(), out num));
+            } while (num < 32 && num > 127);
+            Console.WriteLine((char)num);
+            Console.ReadKey();
         }
     }
 }
