@@ -18,7 +18,7 @@ namespace Task04
             I = U / R;
             Console.WriteLine($"Сила тока I = U / R = {I}");
             P = U * U / R;
-            Console.WriteLine($"Мощность P = U^2 / R = {P}");
+            Console.WriteLine($"Мощность P = U * U / R = {P}");
             Console.ReadKey();
         }
     }
