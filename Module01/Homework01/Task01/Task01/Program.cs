@@ -6,7 +6,7 @@ namespace Task01
     {
         static void Main(string[] args)
         {
-            Console.Write("Hello, World!");
+            Console.WriteLine("Hello, World!");
             Console.ReadKey();
         }
     }
