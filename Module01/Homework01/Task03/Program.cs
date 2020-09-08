@@ -12,7 +12,7 @@ namespace Task03
             {
                 do
                 {
-                    Console.WriteLine("Please, enter the number: ");
+                    Console.WriteLine("Please, enter the correct number: ");
                 } while (!int.TryParse(Console.ReadLine(), out num));
             } while (num < 32 && num > 127);
             Console.WriteLine((char)num);
